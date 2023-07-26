@@ -1,0 +1,83 @@
+Forms
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http:-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Console | JavaScript</title>
+    <meta name="description" content="This is training page for JavaScript" />
+  </head>
+  <meta
+    name="keywords"
+    content="web development, JavaScript basics, programming language learning"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <h1 id="main-header">Console</h1>
+    <form action="process.php">
+      <div>
+        <label for="name">Name</label><br />
+        <input type="text" name="name" id="name" placeholder="John Doe" />
+      </div>
+      <div>
+        <label for="email">Email</label> <br />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter an email"
+        />
+      </div>
+      <div>
+        <label for="message">Message</label><br />
+        <textarea name="message" id="message" cols="50" rows="5"></textarea>
+      </div>
+      <div>
+        <label for="gender">Gender</label><br />
+        <select name="gender" id="gender">
+          <option value="male">Male</option>
+          <option value="female" selected>Female</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div>
+        <label for="age">Age</label><br />
+        <input type="number" name="age" id="age" />
+      </div>
+      <div>
+        <label for="birthdate">Birthdate</label>
+        <input type="date" name="birthdate" id="birthdate" />
+      </div>
+      <div>
+        <label for="membership">Membership</label><br />
+        <input type="radio" name="membership" value="simple" id="membership" />
+        Simple
+        <input
+          type="radio"
+          name="membership"
+          value="standart"
+          id="membership"
+          checked
+        />
+        Standart
+        <input type="radio" name="membership" value="super" id="membership" />
+        Super
+      </div>
+      <div>
+        <label for="likes">Membership</label><br />
+        <input type="checkbox" name="likes" value="bike" id="likes" />
+        Bike
+        <input type="checkbox" name="likes" value="car" id="likes" />
+        Car
+        <input type="checkbox" name="likes" value="boat" id="likes" />
+        Boat
+      </div>
+      <input onclick="alert('Thank you');" type="submit" value="Submit" />
+      <!-- other type -->
+      <button type="submit">Submittir</button>
+      <button type="reset" onclick="alert('page resetted');">Resettir</button>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
