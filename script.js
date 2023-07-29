@@ -298,6 +298,7 @@ console.log( 9 !== '9')
 // console.error('Wrong argument');
 // console.warn('Yellow is the color of the sun');
 
+/*
 let isGreaterThanFifty;
 let myVar = 40;
 if (myVar >= 50) {
@@ -307,3 +308,18 @@ if (myVar >= 50) {
 }
 
 console.log(isGreaterThanFifty)
+*/
+
+// switch/case 
+
+let periodOfTheDay = "evening";
+
+switch(periodOfTheDay) {
+    case "morning": console.log("good morning");
+    break;
+    case "afternoon": console.log("good afternoon");
+    break;
+    case "evening": console.log("good evening");
+    break;
+    default: console.log("hello world");
+}
