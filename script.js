@@ -311,7 +311,7 @@ console.log(isGreaterThanFifty)
 */
 
 // switch/case 
-
+/*
 let periodOfTheDay = "evening";
 
 switch(periodOfTheDay) {
@@ -323,3 +323,18 @@ switch(periodOfTheDay) {
     break;
     default: console.log("hello world");
 }
+*/
+
+// while loops
+
+// let myNum = 1;
+ 
+// while(myNum <= 10) {
+//   console.log(myNum);
+//   myNum++;
+// }
+
+// for loops
+// for(let i=0; i<10; i++) {
+//   console.log(i);
+// }
